@@ -60,89 +60,74 @@ class Movie
     }
 
 
-    public function getImdbId(): string
-    {
+    public function getImdbId(): string {
         return $this->imdbId;
     }
 
 
-    public function getTitle(): string
-    {
+    public function getTitle(): string {
         return $this->title;
     }
 
 
-    public function getYear(): string
-    {
+    public function getYear(): string {
         return $this->year;
     }
 
 
-    public function getRated(): string
-    {
+    public function getRated(): string {
         return $this->rated;
     }
 
 
-    public function getReleased(): string
-    {
+    public function getReleased(): string {
         return $this->released;
     }
 
 
-    public function getGenre(): array
-    {
+    public function getGenre(): array {
         return $this->genre;
     }
 
 
-    public function getDirector(): array
-    {
+    public function getDirector(): array {
         return $this->director;
     }
 
 
-    public function getWriter(): array
-    {
+    public function getWriter(): array {
         return $this->writer;
     }
 
-    public function getActors(): array
-    {
+    public function getActors(): array {
         return $this->actors;
     }
 
 
-    public function getPlot(): string
-    {
+    public function getPlot(): string {
         return $this->plot;
     }
 
-    public function getLanguage(): array
-    {
+    public function getLanguage(): array {
         return $this->language;
     }
 
-    public function getCountry(): array
-    {
+    public function getCountry(): array {
         return $this->country;
     }
 
 
-    public function getAwards(): string
-    {
+    public function getAwards(): string {
         return $this->awards;
     }
 
 
-    public function getPosterUrl(): string
-    {
+    public function getPosterUrl(): string {
         return $this->posterUrl;
     }
 
 
-    public function getType(): string
-    {
+    public function getType(): string {
         return $this->type;
     }
 
@@ -152,8 +137,7 @@ class Movie
      *
      * @return array
      */
-    public function toArray(): array
-    {
+    public function toArray(): array {
         return [
             'ImdbId'                => $this->imdbId,
             'Titulo'                 => $this->title,

@@ -22,7 +22,6 @@
             "App\\": "app/"
 
         }
-        
     },
     "autoload-dev": {
         "psr-4": {

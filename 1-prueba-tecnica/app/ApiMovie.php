@@ -65,7 +65,6 @@ class APIMovie {
     }
 
 
-
     /**
      * Parámetros de la solicitud CURL HTTP.
      *

@@ -5,7 +5,6 @@ $config = __DIR__ . "/app/config/settings.php";
 $vars = parse_ini_file($config, false);
 
 $APIMovies = new \App\APIMovie($vars['API_KEY'], $vars['API_URL']);
-
 ?>
 
 <!doctype html>
