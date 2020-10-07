@@ -1,0 +1,28 @@
+.header {
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.poster {
+  width: 15%;
+}
+
+#busqueda {
+  padding: 20px 10px;
+}
+
+#listado {
+  padding: 20px 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */
